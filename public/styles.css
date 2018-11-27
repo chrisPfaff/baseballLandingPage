@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: 'Spectral SC', serif;
+  font-family: "Spectral SC", serif;
   font-size: 1rem;
   line-height: 1.5;
   color: gray;
@@ -46,7 +46,7 @@ body {
 }
 
 .content p {
-  color: #B2B2B2;
+  color: #b2b2b2;
   font-size: 1.5rem;
   display: block;
 }
@@ -57,19 +57,18 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background: #4F301D;
+  background: #4f301d;
   z-index: 1;
-  opacity: 0.80;
+  opacity: 0.8;
 }
 
 h1 {
   font-size: 44px;
   padding-bottom: 10px;
-  text-shadow: 3px 3px #264273;
-  color: #B2B2B2;
+  text-shadow: -1px -1px 0 #264273, 1px -1px 0 #264273, -1px 1px 0 #264273,
+    1px 1px 0 #264273;
+  color: #b2b2b2;
 }
-
-
 
 .mainBearSharkLogo {
   height: 350px;
