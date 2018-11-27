@@ -1,16 +1,14 @@
-const express = require('express');
+const express = require("express");
 const app = express();
-const path = require('path')
+const path = require("path");
 const port = 3000;
 
-app.use(express.static('public'))
+app.use(express.static("public"));
 
-
-app.get('/' , (req, res) => {
+app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname + "/main.html"));
-})
+});
 
-
-app.listen(port, () => {
-  console.log('Your server is running at port 3000');
-})
+app.listen(process.env.PORT || port, () => {
+  console.log("Your server is running at port 3000");
+});
